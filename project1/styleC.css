@@ -1,0 +1,35 @@
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.container div{
+	width: 100px;
+	height: 150px;
+	margin-left: 10px;
+	background-image: linear-gradient(to right, red, yellow, green);
+	font-size: 40px;
+	font-family: sans-serif;
+	border-left-style: dotted;
+	border-width: 10px;
+	border-color: #D0D0FF;
+	padding-left: 10px;
+	text-shadow: 5px 5px white;
+	box-shadow: 10px 10px blue;
+	transition: width 3s;
+	position: relative;
+ 	animation-name: example;
+    animation-duration: 20s;
+}
+.container div:hover{
+	background-color: yellow;
+	cursor: pointer;
+	color: goldenrod;
+	width: 300px;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}

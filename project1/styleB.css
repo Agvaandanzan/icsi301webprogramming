@@ -1,0 +1,33 @@
+body{
+	height: 100%;
+}
+.container{
+	min-height: 300px;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	min-width: 900px;
+	}
+.container div{
+	width: 100px;
+	height: 150px;
+	margin-left: 10px;
+	background-color: #eeeff2;
+	font-size: 40px;
+	font-family: tahoma;
+	border-left-style: dotted;
+	border-width: 10px;
+	border-color: #D0D0FF;
+	padding-left: 10px;
+}
+.container div:hover{
+	background-color: yellow;
+	cursor: pointer;
+	color: goldenrod;
+}
+#f{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 8px;
+}
