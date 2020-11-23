@@ -1,0 +1,10 @@
+.container{
+    padding: 2%;
+    width: 100%;
+}
+label, input{
+    margin-right: 1%;
+}
+form{
+    width: 30%;
+}
